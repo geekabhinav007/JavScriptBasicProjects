@@ -20,7 +20,9 @@ h1{
     font-size: 3.5rem;
 }
 .countdown-container{
-display : flex
+display : flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 .big-text{
     font-size: 4rem;
