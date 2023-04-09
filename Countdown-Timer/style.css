@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(../Countdown-Timer/img/bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
