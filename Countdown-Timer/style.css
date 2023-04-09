@@ -9,7 +9,28 @@ body {
     margin: 0;
     background-image: url(../Countdown-Timer/img/bg.jpg);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-size: cover;
     background-position: center;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+}
+.countdown-container{
+display : flex
+}
+.big-text{
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+.countdown-c {
+    text-align: center;
+}
+.countdown-c span{
+    font-size: 1.5rem;
 }
